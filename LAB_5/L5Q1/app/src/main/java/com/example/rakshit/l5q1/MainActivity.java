@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity
 		super.onResume();
 		if(!dataOps.isEdit())
 		{
+			spinVehicle.setSelection(0);
 			editRCNo.setText("");
 			editVNo.setText("");
 		}
